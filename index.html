@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmaing shop</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/66d99efde5.js" crossorigin="anonymous"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Use an element to toggle between a like/dislike icon -->
+<i onclick="myFunction(this)" class="fa-solid fa-heart"></i>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<style>
+  .heart {
+  font-size: 25px;
+    color:red;
+}
+  </style>
+  </head>
+
+  <body>
+    <div class="cart-product">
+      <img
+        class="img"
+        src="https://www.scoopgaming.com.tn/img/sp-g3shop-logo-1602603688.png"
+        alt="Scoop gaming"
+      />
+
+      <div class="h1">
+        <h1>ACCESSOIRES PC</h1>
+      </div>
+    </div>
+    <div id="grid-container">
+      <div class="grid-item">
+        <img
+          src="https://www.scoopgaming.com.tn/12226-home_default/casque-asus-rog-delta-white.jpg"
+        />
+        <div>
+          <p>CASQUE ASUS ROG DELTA WHITE</p>
+          <span class="price">$250</span>
+          
+          <span class="minus">-</span>
+          <input type="text" value="1" disabled>
+          <button class="plus">+</button>
+          <button class="delete-btn"><i class='bx bxs-trash'></i></button>
+          <i class="heart fa fa-heart-o"></i>
+          
+
+          
+         
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="https://www.scoopgaming.com.tn/10062-home_default/clavier-cooler-master-sgk6020.jpg"
+        />
+
+        <div>
+          <p>Clavier Cooler Master SGK6020</p>
+          <span class="price">$200</span>
+         
+          <span class="minus">-</span>
+          <input type="text" value="1" disabled>
+          <button class="plus">+</button>
+
+          <!--remove-->
+          <button class="delete-btn"><i class='bx bxs-trash'></i></button>
+          <i class="heart fa fa-heart-o"></i>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://www.scoopgaming.com.tn/13903-home_default/souris-logitech-g604-sans-fil-black.jpg"
+        />
+
+        <div>
+          <p>SOURIS LOGITECH G604 SANS FIL BLACK</p>
+          <span class="price">$150</span>
+          
+          <span class="minus">-</span>
+          <input type="text" value="1" disabled>
+          <button class="plus">+</button>
+
+          <!--remove-->
+          <button class="delete-btn"><i class='bx bxs-trash'></i></button>
+          <i class="heart fa fa-heart-o"></i>
+        </div>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://www.scoopgaming.com.tn/10979-home_default/tapis-cooler-master-extra-large-mp510.jpg"
+        />
+        <div>
+          <p>Tapis Cooler Master Extra-Large MP510</p>
+          <span class="price">$100</span>
+        
+          <span class="minus">-</span>
+          <input type="text" value="1" disabled>
+          <button class="plus">+</button>
+
+          <!--remove-->
+          <button class="delete-btn"><i class='bx bxs-trash'></i></button>
+          <i class="heart fa fa-heart-o "></i>
+        </div>
+      </div>
+    </div>
+    <div>
+        <div id="total-cost"><h1>total-:</h1></div>
+        <div id="cart-items"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

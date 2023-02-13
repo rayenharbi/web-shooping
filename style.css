@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://removal.ai/wp-content/uploads/2021/09/black-background-08-vecteezy.png") ;
+}
+.h1{
+    color: red;
+    text-align: center;
+}
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 50px;
+  background-image: url("https://removal.ai/wp-content/uploads/2021/09/black-background-08-vecteezy.png") ;
+  padding: 10px;
+  /* width: 800px; */
+  
+}
+
+#grid-container > div {
+  background-color:white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  justify-items: center;
+}
+/* .grid-item{
+  display: flex;
+  justify-content: space-around;
+ 
+  
+} */
+/* #grid-item img {margin: auto;} */
+  .plus {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+
+  
+  }
+  
+  .minus:hover {background-color: red}
+
+  .minus {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+  
+  }
+  
+  .plus:hover{background-color: green}
+
+  h2{
+    color: red;
+    text-align: start;
+  }
+  .btnheart{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 12px;
+    font-size: 30px;
+    width: 50px;
+
+  }
+  #total-cost{background-color: white;}
+
+  .bxs-trash{
+    background-color: white;
+  border: none;
+  color:black;
+  padding: 1px 1px;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+
+  }
+  button{
+    background-color: white;
+  }
+  
